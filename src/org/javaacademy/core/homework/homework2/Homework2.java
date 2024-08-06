@@ -72,7 +72,7 @@ public class Homework2 {
     public static void ex4() {
         Runner.main(null);
     }
-    
+
     public static void ex5() {
         int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 
