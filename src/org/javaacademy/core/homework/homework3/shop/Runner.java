@@ -15,7 +15,7 @@ public class Runner {
 
         //Проверить здесь правильность написанного кода, создав покупателя, магазин и запустив проверку от покупателя
 
-        Shop shop = new Shop(false, true, 3);
+        Shop shop = new Shop(false, false, 3);
         Customer customer = new Customer("Василий");
         customer.checkShop(shop);
     }

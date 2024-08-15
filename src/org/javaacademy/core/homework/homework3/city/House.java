@@ -4,7 +4,6 @@ public class House {
     private String street;
     private int number;
 
-
     public House(String street, int number) {
         this.number = number;
         this.street = street;

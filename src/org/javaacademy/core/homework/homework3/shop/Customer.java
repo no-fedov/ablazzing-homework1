@@ -11,9 +11,9 @@ public class Customer {
     }
 
     public void checkShop(Shop shop) {
-        boolean condition1 = shop.isFloorClear() && shop.doWorkersHaveBadges();
+        boolean condition1 = shop.isFloorClear() && shop.shouldWorkersBadges();
         boolean condition2 = shop.getWorkersCount() > 2 && shop.isFloorClear();
-        boolean condition3 = shop.getWorkersCount() > 2 && shop.doWorkersHaveBadges();
+        boolean condition3 = shop.getWorkersCount() > 2 && shop.shouldWorkersBadges();
 
         if (condition1 || condition2 || condition3) {
             System.out.println(name + ": Магазин прошел проверку");

@@ -13,8 +13,8 @@ public class Processor {
 
     @Override
     public String toString() {
-        return "Processor{" +
-                "mhz=" + mhz +
-                '}';
+        return "Processor{"
+                + "mhz=" + mhz
+                + '}';
     }
 }

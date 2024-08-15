@@ -1,5 +1,6 @@
-package org.javaacademy.core.homework.homework3.phone;
+package org.javaacademy.core.homework.homework3.phone.factory;
 
+import org.javaacademy.core.homework.homework3.phone.Iphone;
 import org.javaacademy.core.homework.homework3.phone.components.Camera;
 import org.javaacademy.core.homework.homework3.phone.components.PhoneCase;
 import org.javaacademy.core.homework.homework3.phone.components.Processor;

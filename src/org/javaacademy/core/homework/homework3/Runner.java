@@ -7,6 +7,8 @@ import org.javaacademy.core.homework.homework3.phone.Samsung;
 import org.javaacademy.core.homework.homework3.phone.components.Camera;
 import org.javaacademy.core.homework.homework3.phone.components.PhoneCase;
 import org.javaacademy.core.homework.homework3.phone.components.Processor;
+import org.javaacademy.core.homework.homework3.phone.factory.IphoneFactory;
+import org.javaacademy.core.homework.homework3.phone.factory.SamsungFactory;
 import org.javaacademy.core.homework.homework3.pyramid.Pyramid1;
 
 public class Runner {
@@ -35,15 +37,19 @@ public class Runner {
                 new Processor[]{new Processor(1000), new Processor(1000)});
         iphone.snap();
         iphone.getProcessorsInfo();
+
+        Samsung newSamsung = SamsungFactory.getSamsung();
+        newSamsung.snap();
+
+        Iphone newIphone = IphoneFactory.getIphone();
+        newIphone.snap();
+        newIphone.getProcessorsInfo();
     }
 
     public static void ex3() {
         new Pyramid1().print();
     }
 
-    /**
-     * Для продвинутых
-     */
     public static void ex4() {
         House house1 = new House("Lenina", 1);
         House[] arrayOfHouses = new House[]{house1};

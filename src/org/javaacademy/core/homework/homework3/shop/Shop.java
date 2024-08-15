@@ -18,7 +18,7 @@ public class Shop {
         return floorIsClear;
     }
 
-    public boolean doWorkersHaveBadges() {
+    public boolean shouldWorkersBadges() {
         return workersHaveBadges;
     }
 

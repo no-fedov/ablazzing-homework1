@@ -2,7 +2,7 @@ package org.javaacademy.core.homework.homework3.city;
 
 import java.util.Arrays;
 
-public class City {
+public final class City {
     private final String name;
     private final House[] houses;
 
