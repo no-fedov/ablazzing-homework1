@@ -26,7 +26,8 @@ public final class City {
     private House[] copyHouses(House[] houses) {
         House[] copiedHouses = new House[houses.length];
         for (int i = 0; i < houses.length; i++) {
-            copiedHouses[i] = new House(houses[i]);
+            copiedHouses[i] = new House(houses[i].getStreet(),
+                    houses[i].getNumber());
         }
         return copiedHouses;
     }

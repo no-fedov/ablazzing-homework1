@@ -9,11 +9,6 @@ public class House {
         this.street = street;
     }
 
-    public House(House house) {
-        this.number = house.getNumber();
-        this.street = house.getStreet();
-    }
-
     public String getStreet() {
         return street;
     }
