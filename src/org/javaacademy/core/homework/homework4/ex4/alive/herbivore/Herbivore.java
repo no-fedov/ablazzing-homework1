@@ -10,7 +10,7 @@ public abstract class Herbivore extends Alive {
 
     public void run() throws RunException {
         if (!this.isAlive) {
-            throw new RunException("Животное не может бегать");
+            throw new RunException();
         }
     }
 }

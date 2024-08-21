@@ -1,4 +1,4 @@
-package org.javaacademy.core.homework.homework4.ex3;
+package org.javaacademy.core.homework.homework4.ex3.soundable;
 
 public class Bird implements Soundable {
     private static final String BIRD_SPEECH = "Чирик.";

@@ -8,7 +8,6 @@ public class Runner {
     public static void main(String[] args) {
         CarWash carWash = new CarWash();
 
-
         Car[] cars = {
             new LightCar(5, 2, 1.8, true),
             new LightCar(5, 2, 1.8, false),
@@ -22,7 +21,6 @@ public class Runner {
         };
 
         double price = carWash.wash(cars);
-
         System.out.printf("Мэрия отмыла денег: %.2f", price);
     }
 }

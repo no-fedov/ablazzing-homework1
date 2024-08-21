@@ -12,7 +12,7 @@ public abstract class Predator extends Alive {
 
     public void hunt(Alive alive) throws HuntException {
         if (!this.isAlive) {
-            throw new HuntException("Животное не может нападать");
+            throw new HuntException();
         }
         if (canHunt(alive)) {
             this.eat(alive);

@@ -1,5 +1,7 @@
 package org.javaacademy.core.homework.homework4.ex3;
 
+import org.javaacademy.core.homework.homework4.ex3.soundable.*;
+
 public class Runner {
     public static void main(String[] args) {
         Human human = new Human();

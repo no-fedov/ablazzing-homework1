@@ -1,4 +1,4 @@
-package org.javaacademy.core.homework.homework4.ex3;
+package org.javaacademy.core.homework.homework4.ex3.soundable;
 
 public class Builder extends Human {
     private static final String BUILDER_SPEECH = "Я строитель.";

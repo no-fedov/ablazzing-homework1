@@ -26,7 +26,7 @@ public class CarWash {
         counter += car.getHeight() > 2.5 ? 1 : 0;
         counter += car.getWidth() > 2 ? 1 : 0;
 
-        if (counter >= 1) {
+        if (counter > 0) {
             return LARGE_PRICE;
         }
 
