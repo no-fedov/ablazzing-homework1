@@ -1,7 +1,21 @@
 package org.javaacademy.core.homework.homework4;
 
+import org.javaacademy.core.homework.homework4.ex4.alive.exception.HuntException;
+import org.javaacademy.core.homework.homework4.ex4.alive.exception.RunException;
+
 public class Runner {
+    public static void main(String[] args) throws HuntException, RunException {
+        ex1();
+        System.out.println("_________________");
+        ex2();
+        System.out.println("_________________");
+        ex3();
+        System.out.println("_________________");
+        ex4();
+    }
+
     public static void ex1() {
+        org.javaacademy.core.homework.homework4.ex1.Runner.main(null);
         //Создать легковую машину (атрибуты: чистая/грязная, размеры(ширина,высота,длина), наличие круиз контроля)
         //Создать автобус (атрибуты: чистый/грязный, размеры(ширина,высота,длина), макс количество пассажиров)
         //Создать автомойку
@@ -18,6 +32,7 @@ public class Runner {
     }
 
     public static void ex2() {
+        org.javaacademy.core.homework.homework4.ex2.Runner.main(null);
         //Задача №2
         //1. Создать два класса, которые умеют летать: самолет и утка. Атрибут утки: isInjured (ранен),
         // атрибут самолета: countPassengers.
@@ -41,6 +56,7 @@ public class Runner {
     }
 
     public static void ex3() {
+        org.javaacademy.core.homework.homework4.ex3.Runner.main(null);
         //Задача №3 - Звук вокруг
         //Человек умеет издавать звук: "Я человек." (возвращается строка и в след пунктах тоже)
         //Строитель умеет издавать звук: "Я строитель." + звук из человека
@@ -53,6 +69,7 @@ public class Runner {
     }
 
     public static void ex4() {
+        org.javaacademy.core.homework.homework4.ex4.Runner.main(null);
         //Задача №4 - Страсти по Дарвину
         //Создать следующую структуру
         //             Живое

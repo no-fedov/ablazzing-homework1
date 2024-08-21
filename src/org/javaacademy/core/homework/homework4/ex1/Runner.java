@@ -21,6 +21,6 @@ public class Runner {
         };
 
         double price = carWash.wash(cars);
-        System.out.printf("Мэрия отмыла денег: %.2f", price);
+        System.out.printf("Мэрия отмыла денег: %.2f\n", price);
     }
 }
