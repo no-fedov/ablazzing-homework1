@@ -13,6 +13,7 @@ public class ComputerSpy extends Computer {
 
     public ComputerSpy(Computer computer) {
         this.computer = computer;
+        checkComputerPresence();
     }
 
     public Computer getComputer() {
@@ -21,6 +22,7 @@ public class ComputerSpy extends Computer {
 
     public void setComputer(Computer computer) {
         this.computer = computer;
+        checkComputerPresence();
     }
 
     @Override
@@ -48,6 +50,12 @@ public class ComputerSpy extends Computer {
             fileWriter.write(text + "\n");
         } catch (IOException e) {
             System.out.println("Ошибка записи в файл");
+        }
+    }
+
+    private void checkComputerPresence() {
+        if (computer == null) {
+            throw new RuntimeException("Вы не указали с каким компьютером работать");
         }
     }
 }
